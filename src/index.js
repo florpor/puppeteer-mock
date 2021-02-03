@@ -6,9 +6,8 @@ const sinon = require('sinon');
 let sinonSandbox;
 
 function activate() {
-    if (isActive()) {
+    if (isActive())
         throw new Error('puppeteer-mock is already active');
-    }
 
     // use sinon to override puppeteer browser newPage function so that for each newly
     // created page we can register an event handler to intercept requests and do the

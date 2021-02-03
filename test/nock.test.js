@@ -30,7 +30,7 @@ describe('test mocking using nock', function() {
 
         // restore unmocked networking
         nock.restore();
-        
+
         // restore puppeteer requests
         puppeteerMock.deactivate();
     });
