@@ -1,5 +1,9 @@
 # puppeteer-mock
 
+[![npm](https://img.shields.io/npm/v/puppeteer-mock.svg)][npmjs]
+
+[npmjs]: https://www.npmjs.com/package/puppeteer-mock
+
 Build a bridge between Puppeteer and your favourite HTTP mocking library
 
 puppeteer-mock makes the testing of Puppeteer-backed code easy by enabling the mocking of page responses which arrive at the headless browser.
