@@ -1,15 +1,23 @@
 {
-  "name": "puppeteer-mock",
-  "version": "0.1.0",
-  "description": "Build a bridge between Puppeteer and your favorite HTTP mocking library",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "mocha ./test/*"
+  "author": "florpor",
+  "bugs": {
+    "url": "https://github.com/florpor/puppeteer-mock/issues"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/florpor/puppeteer-mock.git"
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "sinon": "^9.2.4"
   },
+  "description": "Build a bridge between Puppeteer and your favourite HTTP mocking library",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nock": "^13.0.7"
+  },
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "homepage": "https://github.com/florpor/puppeteer-mock",
   "keywords": [
     "puppeteer",
     "mock",
@@ -19,15 +27,15 @@
     "test",
     "tests"
   ],
-  "author": "florpor",
   "license": "MIT",
-  "dependencies": {
-    "puppeteer": "^5.5.0",
-    "sinon": "^9.2.4"
+  "main": "src/index.js",
+  "name": "puppeteer-mock",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florpor/puppeteer-mock.git"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.2.1",
-    "nock": "^13.0.7"
-  }
+  "scripts": {
+    "test": "mocha ./test/*"
+  },
+  "version": "0.1.0"
 }
